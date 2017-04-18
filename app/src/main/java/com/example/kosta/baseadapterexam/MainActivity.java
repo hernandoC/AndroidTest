@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             p.setName("Name: "+ i);
             p.setPhone("Phone: "+ "010..." + i);
             p.setAddress("Address: "+ "Seoul" + i);
-
+            p.setPhone("");
             personList.add(p);
 
         }
